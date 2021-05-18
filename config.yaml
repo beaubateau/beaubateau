@@ -9,7 +9,7 @@ theme: hugo-refresh
 #########################################
 # This options specify where to look for the images used in this config
 # The default value is the "asset" directory of this theme
-# assetDir: "static"
+assetDir: "static"
 
 # Option to specify the default language of the theme
 # I.e., the landing language of your root 
@@ -108,9 +108,9 @@ params:
     # option to specify the title in the homepage
     title: beauBateau GmbH
     # option to specify the subtitle in the homepage
-    subtitle: A mother company to medical writing agency and travel blogging platform
+    subtitle: Mother company to a medical writing agency and a travel blogging platform
     # option to specify image in the homepage
-    image: "/images/avataaars.png" # worker.svg 
+    image: "/images/jenny.jpg" # worker.svg 
     # option to specify the width of the image in the homepage
     imageWidth: 500px
 
@@ -125,7 +125,7 @@ params:
       title: My Email
     # option to specify your linkedin profile in the footer
     linkedin: 
-      link: https://www.linkedin.com/in/jenny-broeker-lai
+      link: in/jenny-broeker-lai
       title: My LinkedIn
     # option to specify your facebook account in the footer; 
     # **uncomment** the lines below to show in footer
@@ -134,9 +134,9 @@ params:
     #   title: Facebook
     # option to specify your github account in the footer; 
     # **uncomment** the below lines to show in footer
-    # github: 
-    #   link: username
-    #   title: Github
+    github: 
+      link: beaubateau
+      title: Github
     # option to specify your twitter username in the footer; 
     # **uncomment** the below lines to show in footer
     # twitter: 
@@ -173,8 +173,8 @@ languages:
     params:
       homepage:
         title: beauBateau GmbH
-        subtitle: Eine Firme für Medical-Writting und Reisebloggen
-        image: "/images/avataaars.png" # worker.svg 
+        subtitle: Firme für eine Medical-Writting Agentur und ein Reisebloggen Platform
+        image: "/images/jenny.jpg" # worker.svg 
         imageWidth: 500px
       
       # Some sub-parameters of the "footer" parameter
@@ -188,7 +188,7 @@ languages:
           link: j.broeker-lai@beaubateau.gmbh
           title: Email
         linkedin: 
-          link: https://de.linkedin.com/in/jenny-broeker-lai/
+          link: in/jenny-broeker-lai/
           title: LinkedIn
         # facebook: 
         #   link: your.username
@@ -199,8 +199,8 @@ languages:
         # instagram: 
         #   link: username
         #   title: Instagram
-        # github: 
-        #   link: username
-        #   title: Github
+        github: 
+          link: beaubateau
+          title: Github
         copyright: beauBateau GmbH - 2021
       
